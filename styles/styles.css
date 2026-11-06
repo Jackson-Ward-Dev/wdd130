@@ -31,7 +31,7 @@ max-width: 800px  ;
 
 aside {
     width: 600px;
-    margin: right;
+    margin: 30px;
     border: 1px solid black;
     padding: 2%;
     background-color: #aaa9ac;
