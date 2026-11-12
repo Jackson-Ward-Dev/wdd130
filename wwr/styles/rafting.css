@@ -50,7 +50,7 @@ nav, p, section, article {
     height: auto;
 
 }
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -60,24 +60,23 @@ h1 {
     background-color: var(--accent1-color);
     color: #fff;
 }
-article {
+.hero article {
     position: absolute;
-    bottom: 10px;
-    height: 80px;
+    bottom: 5px;
+    height: 88px;
     width: 90%;
     left: 5%;
     background-color: var(--accent2-color-opacity);
     color: black;
 }
-.hero article p{
-    margin: 0;
-    top: 6px;
-    left: 6px;
-}
+
+
 .hero article img {
     float: right;
     width: 50px;
     height: auto;
-    padding: 2px;
+    position: relative;
+    
+    border: solid 1px black;
 }
 
