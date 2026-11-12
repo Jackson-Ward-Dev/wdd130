@@ -19,6 +19,11 @@ header{
     background-color: var(--primary-color);
     color: var(--accent2-color);
 }
+header img{
+    width: 120px;
+    height: auto;
+    margin: 5px;
+}
 
 body {
     font-family: var(--body-font);
