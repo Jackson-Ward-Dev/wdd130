@@ -59,6 +59,7 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
+    font-family: var(--heading-font);
     opacity: .7;
     background-color: var(--accent1-color);
     color: #fff;
