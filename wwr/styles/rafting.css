@@ -12,8 +12,6 @@ box-sizing: border-box;
     --accent2-color: #F77F00;/* canyon orange*/
     --heading-font:"Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
-    --accent2-color-opacity: rgba(247, 127, 0, 0.8);
-    --primary-color-opacity: rgba(0, 95, 115, 0.8);
     --secondary-color-opacity: rgba(233, 216, 166, 0.8);
 }
 
