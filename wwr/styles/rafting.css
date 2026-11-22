@@ -177,7 +177,6 @@ footer a img {
     display: flex;
     grid-column: 3;
     justify-self: end;
-    display: flex;
     gap: 10px;
 }
     .socialmedia a {
