@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/form.css">
 </head>
 <body>
+    <h1> WDD 130 | HTML Form - User Poll</h1>
     <form>
         <fieldset>
                 <legend>Contact Information</legend>
@@ -25,18 +26,19 @@
             <div class="form-item label-wide">  
                 <label for="quantity">Select your favorite web browser.</label>
                 <select name="quantity" id="quantity">
-                    <option value="1">Safari</option>
-                    <option value="2">Chrome</option>
-                    <option value="3">Brave</option>
+                    <option value="select">Select</option>
+                    <option value="chrome">Chrome</option>
+                    <option value="brave">Brave</option>
+                    <option value="safari">Safari</option>
                 </select>
             </div>     
-            <div class="form-item">   
+            <div class="form-item label-wide">   
                 <label for="pet">Do you have a household pet?</label>
                 <input type="checkbox" id="pet" name="pet">
             </div> 
             <div class="form-item"> 
                 <label for="places">List the places you have lived.</label>
-                <input type="textarea" id="places" name="places" rows="10" placeholder="Mowapa, Motown, Stalingrad">
+                <textarea id="places" name="places" rows="10" placeholder="Mowapa, Motown, Stalingrad"></textarea>
             </div>
         </fieldset>
         <button type="submit">Submit Poll</button>
