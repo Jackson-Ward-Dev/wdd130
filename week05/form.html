@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Exercise</title>
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+                <legend>Contact Information</legend>
+              <div class="form-item label-narrow">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>  
+            <div class="form-item label-narrow">
+                <label for="usermail">Email Address:</label>
+                <input type="email" id="usermail" name="usermail" required>
+                </div>
+        </fieldset>
+        <fieldset>
+                <legend>Questions</legend>
+            <div class="form-item label-wide">  
+                <label for="quantity">Select your favorite web browser.</label>
+                <select name="quantity" id="quantity">
+                    <option value="1">Safari</option>
+                    <option value="2">Chrome</option>
+                    <option value="3">Brave</option>
+                </select>
+            </div>     
+            <div class="form-item">   
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+            </div> 
+            <div class="form-item"> 
+                <label for="places">List the places you have lived.</label>
+                <input type="textarea" id="places" name="places" rows="10" placeholder="Mowapa, Motown, Stalingrad">
+            </div>
+        </fieldset>
+        <button type="submit">Submit Poll</button>
+
+
+
+    </form>
+
+</body>
+
+</html>
